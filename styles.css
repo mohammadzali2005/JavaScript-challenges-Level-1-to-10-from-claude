@@ -20,7 +20,7 @@ body{
     font-weight: 500;
 }
 
-.changeColor-btn{
+#newColor-btn{
     position: relative;
     display: inline-block;
     padding: 25px 30px;
@@ -37,7 +37,7 @@ body{
     background-color: rgba(0, 0, 0, 0);
    
 }
-.changeColor-btn:hover{
+#newColor-btn:hover{
     background: rgba(0, 0, 0, 0);
     color: #050801;
     box-shadow: 0 0 5px #000000,
@@ -47,17 +47,17 @@ body{
                 inset 0 0 5px 50px white;
      -webkit-box-reflect:below 1px linear-gradient(transparent, #000000);
 }
-.changeColor-btn:nth-child(1){
+#newColor-btn:nth-child(1){
     filter: hue-rotate(270deg);
 }
-.changeColor-btn:nth-child(2){
+#newColor-btn:nth-child(2){
     filter: hue-rotate(110deg);
 }
-.changeColor-btn span{
+#newColor-btn span{
     position: absolute;
     display: block;
 }
-.changeColor-btn span:nth-child(1){
+#newColor-btn span:nth-child(1){
     top: 0;
     left: 0;
     width: 100%;
@@ -73,7 +73,7 @@ body{
         left: 100%;
     }
 }
-.changeColor-btn span:nth-child(2){
+#newColor-btn span:nth-child(2){
     top: -100%;
     right: 0;
     width: 2px;
@@ -90,7 +90,7 @@ body{
         top: 100%;
     }
 }
-.changeColor-btn span:nth-child(3){
+#newColor-btn span:nth-child(3){
     bottom: 0;
     right: 0;
     width: 100%;
@@ -109,7 +109,7 @@ body{
 }
 
 
-.changeColor-btn span:nth-child(4){
+#newColor-btn span:nth-child(4){
     bottom: -100%;
     left: 0;
     width: 2px;
